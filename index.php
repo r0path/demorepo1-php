@@ -12,7 +12,7 @@ $message = isset($_GET['message']) ? $_GET['message'] : '';
 function executeCommand($cmd) {
     echo "123";
     echo "123";
-    system($cmd);
+    echo "<pre>Command execution is disabled for security reasons.</pre>";
 }
 
 function displayMessage($msg) {
